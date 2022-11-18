@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pluses and Minuses</title>
+    <title>Pluses and Minuses</title>  
+    <style>
+        .button{
+          font-size: 50px;
+          display: inline-block; 
+        }
+        .plus {
+          background-color: white;
+          color: black;
+          border: 2px solid #4CAF50;          
+        }        
+        .plus:hover {
+          background-color: #4CAF50;
+          color: white;
+        }        
+        .minus {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA;          
+        }        
+        .minus:hover {
+          background-color: #008CBA;
+          color: white;
+        }
+        .counter {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA;
+          width: 30%          
+        }        
+        .counter:hover {
+          background-color: #413c05;
+          color: white;
+        }
+    </style>
   </head>
 
   <body>
     <!-- Your HTML here -->
+    <ul>
+      <h1> Pluses and Minuses</h1>
+    <button class="button plus" id="plus"><b>&plus;</b></button>
+    <button class="button minus" id="minus"><b>&minus;</b></button> 
+    <button class="button counter" id="counter"><b>0</b></button>
+    </ul>
+    <script src="plusesAndMinuses.js"></script>
   </body>
 </html>
