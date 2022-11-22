@@ -12,6 +12,6 @@
 let tds = document.querySelectorAll("td");
 tds.forEach(td => {
   td.addEventListener("click", (e) => {
-    td.innerText = `client X,Y:  ${e.clientX}, ${e.clientY}`;
+    td.innerText = `${e.clientX}, ${e.clientY}`;
     //console.log(e.clientX,e.clientY); 
 }) });
